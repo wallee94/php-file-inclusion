@@ -10,7 +10,7 @@ test=$(curl --silent "$url")
 if [[ $test != 'done' ]]
 then
     echo 'ERROR: target server is not running the uploaded php file'
-    echo '(Maybe you wrote the wrong path)'
+    echo '(Maybe you wrote a wrong path)'
     exit 1
 fi
 
