@@ -14,7 +14,7 @@ If the server runs the php file, the script will create a terminal to execute sh
 
 ## Notes
 
-Although the script creates a shell terminal clone, remember that we are still sending each command through a query param in the url, starting a new real terminal each time, so commands that change the current state of the shell, as PWD, won't last.
+Although the script creates a shell terminal clone, remember that we are still sending each command through a query param in the url, starting a new real terminal each time, so commands that change the current state of the shell, as CD, won't last.
 
 You can still execute multiple commands using combinations of exit statuses like:
 
