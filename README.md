@@ -25,6 +25,6 @@ Some of the command could be stoppped by web application firewalls. For example:
     cd ../uploads
     cat /etc/passwd
     
-Due to their common usage in path transversal vulnerabilities. However, if you were able to upload a php file in you web application, you probably can also upload some `.sh` file with those commands, and execute it using the script terminal:
+Due to their common usage in path transversal vulnerabilities. However, if you were able to upload a php file in your web application, you probably can also upload some `.sh` file with those commands, and execute it using the script terminal:
 
     user:$ bash uploaded.sh
